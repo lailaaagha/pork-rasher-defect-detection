@@ -48,8 +48,10 @@ def load_class_names(yaml_path: Path) -> list[str]:
 def parse_label_file(label_path: Path, n_classes: int) -> list[tuple[int, float, float, float, float]]:
     """Parse one YOLO label file into a list of boxes.
 
-    Each non-empty line must be ``class x_centre y_centre width height``,
-    with coordinates normalised to [0, 1] by the image size.
+    Each non-empty line is either a box ``class x_centre y_centre width height``
+    or a polygon ``class x1 y1 x2 y2 ... xn yn``. Polygons are converted to
+    their enclosing box, matching how Ultralytics treats them during training.
+    All coordinates are normalised to [0, 1] by the image size.
 
     Args:
         label_path: Path to a ``.txt`` label file.
@@ -59,7 +61,7 @@ def parse_label_file(label_path: Path, n_classes: int) -> list[tuple[int, float,
         List of ``(class_id, x, y, w, h)`` tuples. Empty list = no defects.
 
     Raises:
-        ValueError: If a line has the wrong number of values, an unknown
+        ValueError: If a line has an invalid number of values, an unknown
             class ID, or coordinates outside [0, 1].
     """
     boxes = []
@@ -67,14 +69,25 @@ def parse_label_file(label_path: Path, n_classes: int) -> list[tuple[int, float,
         parts = line.split()
         if not parts:
             continue  # blank lines are allowed
-        if len(parts) != 5:
-            raise ValueError(f"{label_path.name} line {line_no}: expected 5 values, got {len(parts)}")
         cls = int(parts[0])
-        x, y, w, h = map(float, parts[1:])
+        coords = [float(v) for v in parts[1:]]
         if not 0 <= cls < n_classes:
             raise ValueError(f"{label_path.name} line {line_no}: unknown class ID {cls}")
-        if not all(0.0 <= v <= 1.0 for v in (x, y, w, h)):
+        if not all(0.0 <= v <= 1.0 for v in coords):
             raise ValueError(f"{label_path.name} line {line_no}: coordinates outside [0, 1]")
+
+        if len(coords) == 4:
+            x, y, w, h = coords  # standard box
+        elif len(coords) >= 6 and len(coords) % 2 == 0:
+            # Polygon (at least 3 points): convert to its enclosing box.
+            xs, ys = coords[0::2], coords[1::2]
+            x, y = (min(xs) + max(xs)) / 2, (min(ys) + max(ys)) / 2
+            w, h = max(xs) - min(xs), max(ys) - min(ys)
+        else:
+            raise ValueError(
+                f"{label_path.name} line {line_no}: expected 4 box values or an "
+                f"even number (>=6) of polygon values, got {len(coords)}"
+            )
         boxes.append((cls, x, y, w, h))
     return boxes
 

@@ -1,4 +1,4 @@
-split,images,invalid_label,no_defect
-train,1369,2,15
-valid,391,0,3
-test,195,0,3
+split,images,no_defect
+train,1369,15
+valid,391,3
+test,195,3
