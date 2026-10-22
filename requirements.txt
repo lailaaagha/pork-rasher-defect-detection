@@ -1,0 +1,10 @@
+ultralytics
+scikit-learn
+numpy
+pandas
+matplotlib
+opencv-python
+pyyaml
+pytest
+pytest-html
+pdoc
