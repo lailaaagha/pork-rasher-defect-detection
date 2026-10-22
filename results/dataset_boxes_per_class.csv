@@ -1,0 +1,6 @@
+class,train,valid,test,total
+loose-meat,112,12,11,135
+packaging-error,1067,257,121,1445
+twisted-meat,185,44,19,248
+unsealed,359,169,91,619
+wrinkle,11,4,1,16
