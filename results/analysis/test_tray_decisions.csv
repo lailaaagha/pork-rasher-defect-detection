@@ -1,0 +1,391 @@
+image,threshold,gt_classes,pred_classes,actually_defective,flagged_defective
+frame_with_red_102_jpg.rf.8c474dfeaf2591c3315ac086afe3cd71.jpg,0.25,[3],[3],True,True
+frame_with_red_102_jpg.rf.8c474dfeaf2591c3315ac086afe3cd71.jpg,0.137,[3],[3],True,True
+frame_with_red_10334_jpg.rf.4c20801d7181366255adf5b46e4e4dfb.jpg,0.25,[1],[],True,False
+frame_with_red_10334_jpg.rf.4c20801d7181366255adf5b46e4e4dfb.jpg,0.137,[1],[],True,False
+frame_with_red_10412_jpg.rf.1b0580cddf0c1d4345d4d43d12d7ea4f.jpg,0.25,[4],[],True,False
+frame_with_red_10412_jpg.rf.1b0580cddf0c1d4345d4d43d12d7ea4f.jpg,0.137,[4],[],True,False
+frame_with_red_10505_jpg.rf.b6493757f8b48207335a2e20e4090989.jpg,0.25,[1],[],True,False
+frame_with_red_10505_jpg.rf.b6493757f8b48207335a2e20e4090989.jpg,0.137,[1],[],True,False
+frame_with_red_10764_jpg.rf.f98898a0b9514038a2845dd534610b67.jpg,0.25,[1],[],True,False
+frame_with_red_10764_jpg.rf.f98898a0b9514038a2845dd534610b67.jpg,0.137,[1],[1],True,True
+frame_with_red_11065_jpg.rf.17cce032184b5fb38b5177c005a45753.jpg,0.25,"[0, 1]","[0, 1]",True,True
+frame_with_red_11065_jpg.rf.17cce032184b5fb38b5177c005a45753.jpg,0.137,"[0, 1]","[0, 1]",True,True
+frame_with_red_1146_jpg.rf.978f3d0ab6269fdf4b1e2d63f8440575.jpg,0.25,[3],[3],True,True
+frame_with_red_1146_jpg.rf.978f3d0ab6269fdf4b1e2d63f8440575.jpg,0.137,[3],[3],True,True
+frame_with_red_1175_jpg.rf.e89b6373e96852680f2f8d223a0a1f7b.jpg,0.25,[3],[3],True,True
+frame_with_red_1175_jpg.rf.e89b6373e96852680f2f8d223a0a1f7b.jpg,0.137,[3],[3],True,True
+frame_with_red_12066_jpg.rf.0f7f79042d5f51a14c03a0b477ab2d1f.jpg,0.25,[1],[],True,False
+frame_with_red_12066_jpg.rf.0f7f79042d5f51a14c03a0b477ab2d1f.jpg,0.137,[1],[1],True,True
+frame_with_red_1208_jpg.rf.1eb470762dd5c3f97c24bdc52dde49fe.jpg,0.25,"[0, 1]",[0],True,True
+frame_with_red_1208_jpg.rf.1eb470762dd5c3f97c24bdc52dde49fe.jpg,0.137,"[0, 1]","[0, 1]",True,True
+frame_with_red_121_jpg.rf.88edac5b844cf23847ec77c3e7f65348.jpg,0.25,[1],[2],True,True
+frame_with_red_121_jpg.rf.88edac5b844cf23847ec77c3e7f65348.jpg,0.137,[1],[2],True,True
+frame_with_red_12344_jpg.rf.6459d69fe84f6e0eea1d2c96aed34ad9.jpg,0.25,[3],[3],True,True
+frame_with_red_12344_jpg.rf.6459d69fe84f6e0eea1d2c96aed34ad9.jpg,0.137,[3],[3],True,True
+frame_with_red_1237_jpg.rf.68edb029358487889665691f72755fd7.jpg,0.25,[3],[3],True,True
+frame_with_red_1237_jpg.rf.68edb029358487889665691f72755fd7.jpg,0.137,[3],[3],True,True
+frame_with_red_1262_jpg.rf.95a7cdf8bcbfec0c553d87899f7a52f1.jpg,0.25,[1],[],True,False
+frame_with_red_1262_jpg.rf.95a7cdf8bcbfec0c553d87899f7a52f1.jpg,0.137,[1],[1],True,True
+frame_with_red_1271_jpg.rf.5346ad3e596608b934d1bbea17495d91.jpg,0.25,[3],[3],True,True
+frame_with_red_1271_jpg.rf.5346ad3e596608b934d1bbea17495d91.jpg,0.137,[3],[3],True,True
+frame_with_red_1293_jpg.rf.6f7aff77003827b53db3341f299b2079.jpg,0.25,[0],[0],True,True
+frame_with_red_1293_jpg.rf.6f7aff77003827b53db3341f299b2079.jpg,0.137,[0],[0],True,True
+frame_with_red_1298_jpg.rf.a55462a506d9c7a580bf153669ce9e3f.jpg,0.25,[1],[1],True,True
+frame_with_red_1298_jpg.rf.a55462a506d9c7a580bf153669ce9e3f.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_1302_jpg.rf.d30aed87906f7b1807dbc7796799085f.jpg,0.25,[3],[3],True,True
+frame_with_red_1302_jpg.rf.d30aed87906f7b1807dbc7796799085f.jpg,0.137,[3],[3],True,True
+frame_with_red_13305_jpg.rf.6f0e68214e050a31c1f27f217cc42660.jpg,0.25,[1],[1],True,True
+frame_with_red_13305_jpg.rf.6f0e68214e050a31c1f27f217cc42660.jpg,0.137,[1],[1],True,True
+frame_with_red_133_jpg.rf.3cfedf4ac8b93e440d13d265d9a322e1.jpg,0.25,[3],[3],True,True
+frame_with_red_133_jpg.rf.3cfedf4ac8b93e440d13d265d9a322e1.jpg,0.137,[3],[3],True,True
+frame_with_red_13519_jpg.rf.b0cbfb69e1d7f495e23762343adba861.jpg,0.25,[2],[2],True,True
+frame_with_red_13519_jpg.rf.b0cbfb69e1d7f495e23762343adba861.jpg,0.137,[2],"[1, 2]",True,True
+frame_with_red_13554_jpg.rf.8d0d54b1ebe91964f1bef93d19e25ef6.jpg,0.25,[2],[2],True,True
+frame_with_red_13554_jpg.rf.8d0d54b1ebe91964f1bef93d19e25ef6.jpg,0.137,[2],[2],True,True
+frame_with_red_13761_jpg.rf.6f87b4de39cf46d59cfa5bde9b19206e.jpg,0.25,[2],[2],True,True
+frame_with_red_13761_jpg.rf.6f87b4de39cf46d59cfa5bde9b19206e.jpg,0.137,[2],[2],True,True
+frame_with_red_13847_jpg.rf.93c31c594f9e85ea9de731aed2e7333f.jpg,0.25,[2],[],True,False
+frame_with_red_13847_jpg.rf.93c31c594f9e85ea9de731aed2e7333f.jpg,0.137,[2],[2],True,True
+frame_with_red_13904_jpg.rf.1009bab6b6f2033eeda07ac66aeb1c8a.jpg,0.25,"[1, 2]",[],True,False
+frame_with_red_13904_jpg.rf.1009bab6b6f2033eeda07ac66aeb1c8a.jpg,0.137,"[1, 2]",[1],True,True
+frame_with_red_1405_jpg.rf.dc2f120e78a0792c8debab20912f8e29.jpg,0.25,[3],[3],True,True
+frame_with_red_1405_jpg.rf.dc2f120e78a0792c8debab20912f8e29.jpg,0.137,[3],[3],True,True
+frame_with_red_1427_jpg.rf.908986ff7fd291b65168bb4c860e76dc.jpg,0.25,[3],[3],True,True
+frame_with_red_1427_jpg.rf.908986ff7fd291b65168bb4c860e76dc.jpg,0.137,[3],[3],True,True
+frame_with_red_1440_jpg.rf.f193fc7dacc3b14001612d4fd18763ce.jpg,0.25,[3],[3],True,True
+frame_with_red_1440_jpg.rf.f193fc7dacc3b14001612d4fd18763ce.jpg,0.137,[3],[3],True,True
+frame_with_red_1458_jpg.rf.77206e59555d611737a7bd5b36a828f4.jpg,0.25,[1],[],True,False
+frame_with_red_1458_jpg.rf.77206e59555d611737a7bd5b36a828f4.jpg,0.137,[1],[],True,False
+frame_with_red_1521_jpg.rf.73b1beb39c6d333941e90e84058ae6ee.jpg,0.25,[3],[3],True,True
+frame_with_red_1521_jpg.rf.73b1beb39c6d333941e90e84058ae6ee.jpg,0.137,[3],[3],True,True
+frame_with_red_159_jpg.rf.bc109efb53dbdce49a9d4bf72c6fc61e.jpg,0.25,[1],[1],True,True
+frame_with_red_159_jpg.rf.bc109efb53dbdce49a9d4bf72c6fc61e.jpg,0.137,[1],[1],True,True
+frame_with_red_1607_jpg.rf.d9390f29d318446648d69a4ba5c768c4.jpg,0.25,[3],[3],True,True
+frame_with_red_1607_jpg.rf.d9390f29d318446648d69a4ba5c768c4.jpg,0.137,[3],[3],True,True
+frame_with_red_161_jpg.rf.7cbea988318ea7f76a7c65cd747eac23.jpg,0.25,[3],[],True,False
+frame_with_red_161_jpg.rf.7cbea988318ea7f76a7c65cd747eac23.jpg,0.137,[3],[3],True,True
+frame_with_red_1695_jpg.rf.6a97dc2509fa05310757983dbbd13c28.jpg,0.25,[0],"[0, 2]",True,True
+frame_with_red_1695_jpg.rf.6a97dc2509fa05310757983dbbd13c28.jpg,0.137,[0],"[0, 1, 2]",True,True
+frame_with_red_1705_jpg.rf.e68d9322e6adaa3887105fef47ed0ea5.jpg,0.25,[3],[0],True,True
+frame_with_red_1705_jpg.rf.e68d9322e6adaa3887105fef47ed0ea5.jpg,0.137,[3],[0],True,True
+frame_with_red_1727_jpg.rf.7e50d66f8fcf85a4702d9540299c2390.jpg,0.25,[3],[3],True,True
+frame_with_red_1727_jpg.rf.7e50d66f8fcf85a4702d9540299c2390.jpg,0.137,[3],[3],True,True
+frame_with_red_1739_jpg.rf.e1802047e02df818334ce5bc6ab8e08b.jpg,0.25,[3],[3],True,True
+frame_with_red_1739_jpg.rf.e1802047e02df818334ce5bc6ab8e08b.jpg,0.137,[3],[3],True,True
+frame_with_red_1787_jpg.rf.691441609376ad53c58cb601dc2e9623.jpg,0.25,[3],[3],True,True
+frame_with_red_1787_jpg.rf.691441609376ad53c58cb601dc2e9623.jpg,0.137,[3],[3],True,True
+frame_with_red_1885_jpg.rf.1927427c8572b8a9383dad2fc7532e93.jpg,0.25,[1],[],True,False
+frame_with_red_1885_jpg.rf.1927427c8572b8a9383dad2fc7532e93.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_1921_jpg.rf.1dbccb7f2e8f4a3f6b8b4f2a17d23bf1.jpg,0.25,[1],[],True,False
+frame_with_red_1921_jpg.rf.1dbccb7f2e8f4a3f6b8b4f2a17d23bf1.jpg,0.137,[1],[1],True,True
+frame_with_red_199_jpg.rf.20cf4a56119fbcec18fd5df086fca270.jpg,0.25,[1],[],True,False
+frame_with_red_199_jpg.rf.20cf4a56119fbcec18fd5df086fca270.jpg,0.137,[1],[],True,False
+frame_with_red_2013_jpg.rf.e3d12ec475354b980938f2d8f57be105.jpg,0.25,[1],[1],True,True
+frame_with_red_2013_jpg.rf.e3d12ec475354b980938f2d8f57be105.jpg,0.137,[1],[1],True,True
+frame_with_red_2041_jpg.rf.3c84786ae6a10d465322336f7f338706.jpg,0.25,[1],[2],True,True
+frame_with_red_2041_jpg.rf.3c84786ae6a10d465322336f7f338706.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_2094_jpg.rf.2a380230978c20d668f1b9ca683acf86.jpg,0.25,[1],[1],True,True
+frame_with_red_2094_jpg.rf.2a380230978c20d668f1b9ca683acf86.jpg,0.137,[1],[1],True,True
+frame_with_red_21_jpg.rf.b4e1af98d69f27f77b3d8d65b205b56d.jpg,0.25,[1],[1],True,True
+frame_with_red_21_jpg.rf.b4e1af98d69f27f77b3d8d65b205b56d.jpg,0.137,[1],[1],True,True
+frame_with_red_2248_jpg.rf.f42e08f3cd9ba51c05dc1ce8f39687e9.jpg,0.25,[1],[1],True,True
+frame_with_red_2248_jpg.rf.f42e08f3cd9ba51c05dc1ce8f39687e9.jpg,0.137,[1],[1],True,True
+frame_with_red_2271_jpg.rf.c2cb2551cfbcc5b82198e49309d3bc03.jpg,0.25,[3],[3],True,True
+frame_with_red_2271_jpg.rf.c2cb2551cfbcc5b82198e49309d3bc03.jpg,0.137,[3],[3],True,True
+frame_with_red_2317_jpg.rf.3bcd587a0354c3255315f881fcad3f11.jpg,0.25,"[1, 3]",[1],True,True
+frame_with_red_2317_jpg.rf.3bcd587a0354c3255315f881fcad3f11.jpg,0.137,"[1, 3]",[1],True,True
+frame_with_red_258_jpg.rf.59d0b4e624f5af8088b855ac06c55f09.jpg,0.25,[1],[1],True,True
+frame_with_red_258_jpg.rf.59d0b4e624f5af8088b855ac06c55f09.jpg,0.137,[1],[1],True,True
+frame_with_red_2942_jpg.rf.824adbcf5730e5824fb4e8a87663db51.jpg,0.25,[3],[3],True,True
+frame_with_red_2942_jpg.rf.824adbcf5730e5824fb4e8a87663db51.jpg,0.137,[3],[3],True,True
+frame_with_red_305_jpg.rf.d9fa0650f4ace660982e5868c290c2bb.jpg,0.25,[1],[1],True,True
+frame_with_red_305_jpg.rf.d9fa0650f4ace660982e5868c290c2bb.jpg,0.137,[1],[1],True,True
+frame_with_red_3117_jpg.rf.00acf7a14362aa55626d2d3e41e713e2.jpg,0.25,"[1, 3]",[],True,False
+frame_with_red_3117_jpg.rf.00acf7a14362aa55626d2d3e41e713e2.jpg,0.137,"[1, 3]",[],True,False
+frame_with_red_3177_jpg.rf.1e9d81c228fdfe00b4692982e0e60978.jpg,0.25,[3],[3],True,True
+frame_with_red_3177_jpg.rf.1e9d81c228fdfe00b4692982e0e60978.jpg,0.137,[3],[3],True,True
+frame_with_red_3290_jpg.rf.bdf2d964469c9943578e8b5d7079e4ed.jpg,0.25,[0],[0],True,True
+frame_with_red_3290_jpg.rf.bdf2d964469c9943578e8b5d7079e4ed.jpg,0.137,[0],"[0, 1]",True,True
+frame_with_red_3303_jpg.rf.448c0c3a51e99d59ae5c717edd2bda13.jpg,0.25,[2],[1],True,True
+frame_with_red_3303_jpg.rf.448c0c3a51e99d59ae5c717edd2bda13.jpg,0.137,[2],"[1, 2]",True,True
+frame_with_red_3371_jpg.rf.1a22caac645d76dcc5c75f93f118c365.jpg,0.25,[2],[],True,False
+frame_with_red_3371_jpg.rf.1a22caac645d76dcc5c75f93f118c365.jpg,0.137,[2],[1],True,True
+frame_with_red_3381_jpg.rf.ce838986e003fd985fd35fde77391f63.jpg,0.25,[2],[2],True,True
+frame_with_red_3381_jpg.rf.ce838986e003fd985fd35fde77391f63.jpg,0.137,[2],[2],True,True
+frame_with_red_3436_jpg.rf.3da4100330d62901a1ed5a714ab95fc7.jpg,0.25,[1],[1],True,True
+frame_with_red_3436_jpg.rf.3da4100330d62901a1ed5a714ab95fc7.jpg,0.137,[1],[1],True,True
+frame_with_red_3441_jpg.rf.44a5f421a403e3902cada508cb6b2088.jpg,0.25,[3],[3],True,True
+frame_with_red_3441_jpg.rf.44a5f421a403e3902cada508cb6b2088.jpg,0.137,[3],[3],True,True
+frame_with_red_3482_jpg.rf.6cf8018b850a9d17afcdb5a87ca05d0a.jpg,0.25,[2],[2],True,True
+frame_with_red_3482_jpg.rf.6cf8018b850a9d17afcdb5a87ca05d0a.jpg,0.137,[2],[2],True,True
+frame_with_red_3523_jpg.rf.cde953c3f3daa3a3868b1759689b2251.jpg,0.25,[1],[],True,False
+frame_with_red_3523_jpg.rf.cde953c3f3daa3a3868b1759689b2251.jpg,0.137,[1],[],True,False
+frame_with_red_3596_jpg.rf.a6a38607e80a496991ad84ae9b6d078a.jpg,0.25,"[1, 2]","[1, 2]",True,True
+frame_with_red_3596_jpg.rf.a6a38607e80a496991ad84ae9b6d078a.jpg,0.137,"[1, 2]","[1, 2]",True,True
+frame_with_red_3613_jpg.rf.b554786620ff874bc7683339590ba04d.jpg,0.25,"[1, 2]","[1, 2]",True,True
+frame_with_red_3613_jpg.rf.b554786620ff874bc7683339590ba04d.jpg,0.137,"[1, 2]","[1, 2]",True,True
+frame_with_red_3640_jpg.rf.e7b5b9d421b0da666eb6d35844d1cdd2.jpg,0.25,[3],[3],True,True
+frame_with_red_3640_jpg.rf.e7b5b9d421b0da666eb6d35844d1cdd2.jpg,0.137,[3],[3],True,True
+frame_with_red_3686_jpg.rf.92803a4fdbf9ac1b836019f299d7685f.jpg,0.25,[3],[3],True,True
+frame_with_red_3686_jpg.rf.92803a4fdbf9ac1b836019f299d7685f.jpg,0.137,[3],[3],True,True
+frame_with_red_378_jpg.rf.d79ee3ab3f3de72b8aeef1cd38b205bf.jpg,0.25,[],[],False,False
+frame_with_red_378_jpg.rf.d79ee3ab3f3de72b8aeef1cd38b205bf.jpg,0.137,[],[1],False,True
+frame_with_red_3798_jpg.rf.e32472422647e1de1e9e1e162a56f6ec.jpg,0.25,[3],[3],True,True
+frame_with_red_3798_jpg.rf.e32472422647e1de1e9e1e162a56f6ec.jpg,0.137,[3],[3],True,True
+frame_with_red_3899_jpg.rf.62467023e269d90cf936edf8f1dd8e0f.jpg,0.25,[3],[3],True,True
+frame_with_red_3899_jpg.rf.62467023e269d90cf936edf8f1dd8e0f.jpg,0.137,[3],[3],True,True
+frame_with_red_394_jpg.rf.f93df07225e3ca5a37e08be88df2899f.jpg,0.25,[1],[1],True,True
+frame_with_red_394_jpg.rf.f93df07225e3ca5a37e08be88df2899f.jpg,0.137,[1],[1],True,True
+frame_with_red_3989_jpg.rf.f6cd488daa5058746f2aeae8fd743da5.jpg,0.25,[3],[3],True,True
+frame_with_red_3989_jpg.rf.f6cd488daa5058746f2aeae8fd743da5.jpg,0.137,[3],[3],True,True
+frame_with_red_4009_jpg.rf.ccd28ce77c490d863ff897fd6d75d1ba.jpg,0.25,[1],[2],True,True
+frame_with_red_4009_jpg.rf.ccd28ce77c490d863ff897fd6d75d1ba.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_4013_jpg.rf.6756e211aa94abebd4f6e839ba5969f2.jpg,0.25,[3],[3],True,True
+frame_with_red_4013_jpg.rf.6756e211aa94abebd4f6e839ba5969f2.jpg,0.137,[3],[3],True,True
+frame_with_red_4027_jpg.rf.28653f06e99741df235f5198dc36c036.jpg,0.25,[1],"[1, 2]",True,True
+frame_with_red_4027_jpg.rf.28653f06e99741df235f5198dc36c036.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_4088_jpg.rf.4f57fd3437eda8cf8751280b416d4f05.jpg,0.25,[1],[1],True,True
+frame_with_red_4088_jpg.rf.4f57fd3437eda8cf8751280b416d4f05.jpg,0.137,[1],[1],True,True
+frame_with_red_4145_jpg.rf.1df447c9f6330f692af91c769361d149.jpg,0.25,[3],[3],True,True
+frame_with_red_4145_jpg.rf.1df447c9f6330f692af91c769361d149.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_4159_jpg.rf.5c6f332d72febd97a301e10674602662.jpg,0.25,"[1, 3]",[3],True,True
+frame_with_red_4159_jpg.rf.5c6f332d72febd97a301e10674602662.jpg,0.137,"[1, 3]",[3],True,True
+frame_with_red_416_jpg.rf.ea2bc54c6b0607d4e1f6494648b1adcd.jpg,0.25,[3],[3],True,True
+frame_with_red_416_jpg.rf.ea2bc54c6b0607d4e1f6494648b1adcd.jpg,0.137,[3],[3],True,True
+frame_with_red_4170_jpg.rf.fd90cb2a13e98636451d72f7ae4fd4ed.jpg,0.25,[1],[],True,False
+frame_with_red_4170_jpg.rf.fd90cb2a13e98636451d72f7ae4fd4ed.jpg,0.137,[1],[],True,False
+frame_with_red_4218_jpg.rf.2cc0378c0dfa9357c5744dfb38c2f8ea.jpg,0.25,[1],[1],True,True
+frame_with_red_4218_jpg.rf.2cc0378c0dfa9357c5744dfb38c2f8ea.jpg,0.137,[1],[1],True,True
+frame_with_red_4352_jpg.rf.3be96754e4d69015bd8d386d731056e9.jpg,0.25,[3],[3],True,True
+frame_with_red_4352_jpg.rf.3be96754e4d69015bd8d386d731056e9.jpg,0.137,[3],[3],True,True
+frame_with_red_437_jpg.rf.893958d8c5a091628464e6499dbddec2.jpg,0.25,[2],[],True,False
+frame_with_red_437_jpg.rf.893958d8c5a091628464e6499dbddec2.jpg,0.137,[2],"[1, 2]",True,True
+frame_with_red_4388_jpg.rf.9f59ff399560b022d24cb231208901e7.jpg,0.25,[0],[0],True,True
+frame_with_red_4388_jpg.rf.9f59ff399560b022d24cb231208901e7.jpg,0.137,[0],"[0, 1]",True,True
+frame_with_red_4426_jpg.rf.99a089b8dd5a7edf1a2f914d7b75e525.jpg,0.25,[3],[3],True,True
+frame_with_red_4426_jpg.rf.99a089b8dd5a7edf1a2f914d7b75e525.jpg,0.137,[3],[3],True,True
+frame_with_red_4453_jpg.rf.7b87f4f96fce23fbe00a6d7fcba05679.jpg,0.25,[1],[1],True,True
+frame_with_red_4453_jpg.rf.7b87f4f96fce23fbe00a6d7fcba05679.jpg,0.137,[1],[1],True,True
+frame_with_red_4523_jpg.rf.4d0a32b917a47e9bf20616b3446eaf80.jpg,0.25,[3],[3],True,True
+frame_with_red_4523_jpg.rf.4d0a32b917a47e9bf20616b3446eaf80.jpg,0.137,[3],[3],True,True
+frame_with_red_4664_jpg.rf.45079978b06f3ce9ed83b464d0355177.jpg,0.25,[1],[1],True,True
+frame_with_red_4664_jpg.rf.45079978b06f3ce9ed83b464d0355177.jpg,0.137,[1],[1],True,True
+frame_with_red_4736_jpg.rf.dc9a95f02868d2187cfdef8eb3a7c2f9.jpg,0.25,[1],[1],True,True
+frame_with_red_4736_jpg.rf.dc9a95f02868d2187cfdef8eb3a7c2f9.jpg,0.137,[1],[1],True,True
+frame_with_red_4804_jpg.rf.3df3258503a2b5de5a627e14181e8414.jpg,0.25,"[1, 3]",[3],True,True
+frame_with_red_4804_jpg.rf.3df3258503a2b5de5a627e14181e8414.jpg,0.137,"[1, 3]","[1, 3]",True,True
+frame_with_red_4819_jpg.rf.9b6fb3e9d6a4666e9ef4d5b77ac53d61.jpg,0.25,[1],[],True,False
+frame_with_red_4819_jpg.rf.9b6fb3e9d6a4666e9ef4d5b77ac53d61.jpg,0.137,[1],[1],True,True
+frame_with_red_484_jpg.rf.74b37dfeb87d4742cd60fef5bf37a66b.jpg,0.25,[0],[],True,False
+frame_with_red_484_jpg.rf.74b37dfeb87d4742cd60fef5bf37a66b.jpg,0.137,[0],[1],True,True
+frame_with_red_4906_jpg.rf.1fdbcb92bd2384af159b1ffd726e4deb.jpg,0.25,[1],[1],True,True
+frame_with_red_4906_jpg.rf.1fdbcb92bd2384af159b1ffd726e4deb.jpg,0.137,[1],[1],True,True
+frame_with_red_4983_jpg.rf.82867afe46c55ae8ac09c483ee03431a.jpg,0.25,[3],[3],True,True
+frame_with_red_4983_jpg.rf.82867afe46c55ae8ac09c483ee03431a.jpg,0.137,[3],[3],True,True
+frame_with_red_5010_jpg.rf.b67c42bd2e1cb0e5aab99d92ff42a63d.jpg,0.25,[1],[],True,False
+frame_with_red_5010_jpg.rf.b67c42bd2e1cb0e5aab99d92ff42a63d.jpg,0.137,[1],[2],True,True
+frame_with_red_5021_jpg.rf.05bb6dd131684d5983fa775bfc8c7349.jpg,0.25,[1],[1],True,True
+frame_with_red_5021_jpg.rf.05bb6dd131684d5983fa775bfc8c7349.jpg,0.137,[1],[1],True,True
+frame_with_red_5042_jpg.rf.a2506da40a2ab9e9efb4cf484e490716.jpg,0.25,[1],[1],True,True
+frame_with_red_5042_jpg.rf.a2506da40a2ab9e9efb4cf484e490716.jpg,0.137,[1],[1],True,True
+frame_with_red_517_jpg.rf.61998234d1cd0e19dd5877dce9c15fb8.jpg,0.25,[3],[3],True,True
+frame_with_red_517_jpg.rf.61998234d1cd0e19dd5877dce9c15fb8.jpg,0.137,[3],[3],True,True
+frame_with_red_5567_jpg.rf.8c664eae0cd651c94b31e86570409505.jpg,0.25,[1],[],True,False
+frame_with_red_5567_jpg.rf.8c664eae0cd651c94b31e86570409505.jpg,0.137,[1],[],True,False
+frame_with_red_5650_jpg.rf.3ec677092cd95a5419c126ae2fe84eb4.jpg,0.25,[1],[1],True,True
+frame_with_red_5650_jpg.rf.3ec677092cd95a5419c126ae2fe84eb4.jpg,0.137,[1],[1],True,True
+frame_with_red_5732_jpg.rf.c7d204315d724d7f7bad2c91aeb34632.jpg,0.25,[3],[3],True,True
+frame_with_red_5732_jpg.rf.c7d204315d724d7f7bad2c91aeb34632.jpg,0.137,[3],[3],True,True
+frame_with_red_5849_jpg.rf.517664c840c2a68369d22857967f99e8.jpg,0.25,[3],[3],True,True
+frame_with_red_5849_jpg.rf.517664c840c2a68369d22857967f99e8.jpg,0.137,[3],[3],True,True
+frame_with_red_5930_jpg.rf.6501ffbe32b2bb222ca176a815a738da.jpg,0.25,[1],[1],True,True
+frame_with_red_5930_jpg.rf.6501ffbe32b2bb222ca176a815a738da.jpg,0.137,[1],[1],True,True
+frame_with_red_595_jpg.rf.dd25fb403fad1651ef051127696ebcc9.jpg,0.25,[1],[1],True,True
+frame_with_red_595_jpg.rf.dd25fb403fad1651ef051127696ebcc9.jpg,0.137,[1],[1],True,True
+frame_with_red_5967_jpg.rf.35988f4be32d63d6c5cace87f41d4937.jpg,0.25,[1],[],True,False
+frame_with_red_5967_jpg.rf.35988f4be32d63d6c5cace87f41d4937.jpg,0.137,[1],[1],True,True
+frame_with_red_6097_jpg.rf.4669423cce91b9dd130089388c1cb41c.jpg,0.25,[3],[3],True,True
+frame_with_red_6097_jpg.rf.4669423cce91b9dd130089388c1cb41c.jpg,0.137,[3],[3],True,True
+frame_with_red_6121_jpg.rf.88802d29ab66c31e82cb54c902a5c7aa.jpg,0.25,[3],[3],True,True
+frame_with_red_6121_jpg.rf.88802d29ab66c31e82cb54c902a5c7aa.jpg,0.137,[3],[3],True,True
+frame_with_red_6132_jpg.rf.db365a48d3c2c8fbda4f0f7399cbf382.jpg,0.25,[3],[3],True,True
+frame_with_red_6132_jpg.rf.db365a48d3c2c8fbda4f0f7399cbf382.jpg,0.137,[3],[3],True,True
+frame_with_red_6170_jpg.rf.67ae0ed0d16a476d40a2062033856e06.jpg,0.25,[3],[3],True,True
+frame_with_red_6170_jpg.rf.67ae0ed0d16a476d40a2062033856e06.jpg,0.137,[3],[3],True,True
+frame_with_red_6185_jpg.rf.02f14fd7a5d257148d1db005d9615887.jpg,0.25,[1],[1],True,True
+frame_with_red_6185_jpg.rf.02f14fd7a5d257148d1db005d9615887.jpg,0.137,[1],[1],True,True
+frame_with_red_6195_jpg.rf.90ace8be5f799c2d1f54300bf9b4ace5.jpg,0.25,[2],[2],True,True
+frame_with_red_6195_jpg.rf.90ace8be5f799c2d1f54300bf9b4ace5.jpg,0.137,[2],[2],True,True
+frame_with_red_6253_jpg.rf.d781cbdadad370a5d859dfa0e98c6fd3.jpg,0.25,"[1, 3]",[1],True,True
+frame_with_red_6253_jpg.rf.d781cbdadad370a5d859dfa0e98c6fd3.jpg,0.137,"[1, 3]","[1, 3]",True,True
+frame_with_red_6299_jpg.rf.a30d78348c59e195b42eda762b8456cd.jpg,0.25,[1],[],True,False
+frame_with_red_6299_jpg.rf.a30d78348c59e195b42eda762b8456cd.jpg,0.137,[1],[1],True,True
+frame_with_red_62_jpg.rf.03d28d4aabd1aa811b205190396018dc.jpg,0.25,[1],"[1, 2]",True,True
+frame_with_red_62_jpg.rf.03d28d4aabd1aa811b205190396018dc.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_6337_jpg.rf.ac25aff527eb323aba1d9f941ab5d2eb.jpg,0.25,[1],[],True,False
+frame_with_red_6337_jpg.rf.ac25aff527eb323aba1d9f941ab5d2eb.jpg,0.137,[1],[1],True,True
+frame_with_red_6338_jpg.rf.80686b7d0143759db2a9ab11c7031b6a.jpg,0.25,[3],[3],True,True
+frame_with_red_6338_jpg.rf.80686b7d0143759db2a9ab11c7031b6a.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_6348_jpg.rf.e45f212d1ced34a3f43bb7e04b1043a5.jpg,0.25,[1],[],True,False
+frame_with_red_6348_jpg.rf.e45f212d1ced34a3f43bb7e04b1043a5.jpg,0.137,[1],[1],True,True
+frame_with_red_6366_jpg.rf.9ae36bcc0c64e6c21a2220c24218a5f8.jpg,0.25,[1],[1],True,True
+frame_with_red_6366_jpg.rf.9ae36bcc0c64e6c21a2220c24218a5f8.jpg,0.137,[1],[1],True,True
+frame_with_red_6397_jpg.rf.102a31cd6355e4851e68bd7c571eaef6.jpg,0.25,[3],[3],True,True
+frame_with_red_6397_jpg.rf.102a31cd6355e4851e68bd7c571eaef6.jpg,0.137,[3],[3],True,True
+frame_with_red_6433_jpg.rf.4871a7887302105ef943be17281a952f.jpg,0.25,[3],[3],True,True
+frame_with_red_6433_jpg.rf.4871a7887302105ef943be17281a952f.jpg,0.137,[3],[3],True,True
+frame_with_red_6456_jpg.rf.e27090bff1715cc7b4be19ac5d005ea9.jpg,0.25,[3],[3],True,True
+frame_with_red_6456_jpg.rf.e27090bff1715cc7b4be19ac5d005ea9.jpg,0.137,[3],[3],True,True
+frame_with_red_6472_jpg.rf.7cb638ff54e7987f9b86d80da70f622b.jpg,0.25,[3],[3],True,True
+frame_with_red_6472_jpg.rf.7cb638ff54e7987f9b86d80da70f622b.jpg,0.137,[3],[3],True,True
+frame_with_red_6483_jpg.rf.0fc044bf17372e57006756ef987c344f.jpg,0.25,[1],[],True,False
+frame_with_red_6483_jpg.rf.0fc044bf17372e57006756ef987c344f.jpg,0.137,[1],[1],True,True
+frame_with_red_64_jpg.rf.3b8ce2ddd1091b8573891e3ac7e4f6be.jpg,0.25,[1],[1],True,True
+frame_with_red_64_jpg.rf.3b8ce2ddd1091b8573891e3ac7e4f6be.jpg,0.137,[1],[1],True,True
+frame_with_red_6515_jpg.rf.ebc93a7a5f83e53f13a6a37463a8ee9b.jpg,0.25,[1],[],True,False
+frame_with_red_6515_jpg.rf.ebc93a7a5f83e53f13a6a37463a8ee9b.jpg,0.137,[1],[1],True,True
+frame_with_red_6561_jpg.rf.877cae9275ba5c1750890212e6dd405c.jpg,0.25,[1],[1],True,True
+frame_with_red_6561_jpg.rf.877cae9275ba5c1750890212e6dd405c.jpg,0.137,[1],[1],True,True
+frame_with_red_6592_jpg.rf.aebe0a27e32fd0bd0030e6344db0f764.jpg,0.25,"[1, 2]","[1, 2]",True,True
+frame_with_red_6592_jpg.rf.aebe0a27e32fd0bd0030e6344db0f764.jpg,0.137,"[1, 2]","[1, 2]",True,True
+frame_with_red_6642_jpg.rf.100fd004b036a5496dbc6e70ae3d2663.jpg,0.25,[3],[3],True,True
+frame_with_red_6642_jpg.rf.100fd004b036a5496dbc6e70ae3d2663.jpg,0.137,[3],[3],True,True
+frame_with_red_6729_jpg.rf.10dd2f50b971c06661027c93f8fc3ceb.jpg,0.25,[2],[],True,False
+frame_with_red_6729_jpg.rf.10dd2f50b971c06661027c93f8fc3ceb.jpg,0.137,[2],[1],True,True
+frame_with_red_6785_jpg.rf.66219ee151f91684493664a0b818e98d.jpg,0.25,[3],[3],True,True
+frame_with_red_6785_jpg.rf.66219ee151f91684493664a0b818e98d.jpg,0.137,[3],[3],True,True
+frame_with_red_6884_jpg.rf.4c1b713e703bc9c2981bdcaffb453207.jpg,0.25,[3],[3],True,True
+frame_with_red_6884_jpg.rf.4c1b713e703bc9c2981bdcaffb453207.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_6888_jpg.rf.803663d3296d467ed4405aeb7c438304.jpg,0.25,[],[],False,False
+frame_with_red_6888_jpg.rf.803663d3296d467ed4405aeb7c438304.jpg,0.137,[],[],False,False
+frame_with_red_692_jpg.rf.fb526db8a60e2b1c7fd4c6ddd1e5b104.jpg,0.25,[3],[3],True,True
+frame_with_red_692_jpg.rf.fb526db8a60e2b1c7fd4c6ddd1e5b104.jpg,0.137,[3],[3],True,True
+frame_with_red_6945_jpg.rf.9c0ab80324446c47fa49740517efce4c.jpg,0.25,"[1, 3]",[3],True,True
+frame_with_red_6945_jpg.rf.9c0ab80324446c47fa49740517efce4c.jpg,0.137,"[1, 3]","[1, 3]",True,True
+frame_with_red_6959_jpg.rf.f7d9fb0ef725d52204602775db68072d.jpg,0.25,[3],[3],True,True
+frame_with_red_6959_jpg.rf.f7d9fb0ef725d52204602775db68072d.jpg,0.137,[3],[3],True,True
+frame_with_red_6976_jpg.rf.e5eb1a00ec79e3d1c4e9a5ea4a5c350e.jpg,0.25,[3],[3],True,True
+frame_with_red_6976_jpg.rf.e5eb1a00ec79e3d1c4e9a5ea4a5c350e.jpg,0.137,[3],[3],True,True
+frame_with_red_6995_jpg.rf.eaa104b877c12028d389f01867a35c7c.jpg,0.25,[3],[3],True,True
+frame_with_red_6995_jpg.rf.eaa104b877c12028d389f01867a35c7c.jpg,0.137,[3],[3],True,True
+frame_with_red_6999_jpg.rf.8466b25a860f34ca353314d0c815a412.jpg,0.25,[1],[],True,False
+frame_with_red_6999_jpg.rf.8466b25a860f34ca353314d0c815a412.jpg,0.137,[1],[],True,False
+frame_with_red_7007_jpg.rf.c354d0f08c939757479e971f5ce72255.jpg,0.25,[1],[1],True,True
+frame_with_red_7007_jpg.rf.c354d0f08c939757479e971f5ce72255.jpg,0.137,[1],[1],True,True
+frame_with_red_701_jpg.rf.72d1258085a8a39fa70f1914b53456fd.jpg,0.25,[1],[1],True,True
+frame_with_red_701_jpg.rf.72d1258085a8a39fa70f1914b53456fd.jpg,0.137,[1],[1],True,True
+frame_with_red_7023_jpg.rf.1f997d10344be0ede0e04b80437a602e.jpg,0.25,[1],[1],True,True
+frame_with_red_7023_jpg.rf.1f997d10344be0ede0e04b80437a602e.jpg,0.137,[1],[1],True,True
+frame_with_red_7073_jpg.rf.221cd65c9b0ebfb7a2964b5ea4ed9daf.jpg,0.25,"[1, 3]",[1],True,True
+frame_with_red_7073_jpg.rf.221cd65c9b0ebfb7a2964b5ea4ed9daf.jpg,0.137,"[1, 3]",[1],True,True
+frame_with_red_7084_jpg.rf.356a29d9dbca57004ce3e3299e8c9f67.jpg,0.25,[1],[],True,False
+frame_with_red_7084_jpg.rf.356a29d9dbca57004ce3e3299e8c9f67.jpg,0.137,[1],[1],True,True
+frame_with_red_7085_jpg.rf.30c46c0cb41b254256450d84e3a966b3.jpg,0.25,[3],[3],True,True
+frame_with_red_7085_jpg.rf.30c46c0cb41b254256450d84e3a966b3.jpg,0.137,[3],[3],True,True
+frame_with_red_7090_jpg.rf.f0ee9487c2461e221cb65caa2d065272.jpg,0.25,[1],[2],True,True
+frame_with_red_7090_jpg.rf.f0ee9487c2461e221cb65caa2d065272.jpg,0.137,[1],[2],True,True
+frame_with_red_7091_jpg.rf.545e52d83064ad9ff6c28e7fbfb35368.jpg,0.25,[3],[3],True,True
+frame_with_red_7091_jpg.rf.545e52d83064ad9ff6c28e7fbfb35368.jpg,0.137,[3],[3],True,True
+frame_with_red_7195_jpg.rf.4643c83daf086cbcbb1254bff251dae9.jpg,0.25,[3],[3],True,True
+frame_with_red_7195_jpg.rf.4643c83daf086cbcbb1254bff251dae9.jpg,0.137,[3],[3],True,True
+frame_with_red_720_jpg.rf.58f1bdd0e9a1cc24c896659ef4f18695.jpg,0.25,"[1, 2]","[1, 2]",True,True
+frame_with_red_720_jpg.rf.58f1bdd0e9a1cc24c896659ef4f18695.jpg,0.137,"[1, 2]","[1, 2]",True,True
+frame_with_red_72_jpg.rf.0ce84e6ee143b261f04b16d6b46ba1e5.jpg,0.25,[3],[3],True,True
+frame_with_red_72_jpg.rf.0ce84e6ee143b261f04b16d6b46ba1e5.jpg,0.137,[3],[3],True,True
+frame_with_red_7313_jpg.rf.c334d1e17091d2e4bab485bb7e1a7b3f.jpg,0.25,[1],[],True,False
+frame_with_red_7313_jpg.rf.c334d1e17091d2e4bab485bb7e1a7b3f.jpg,0.137,[1],[],True,False
+frame_with_red_7325_jpg.rf.92c074217897276a4d34bb96b74e2641.jpg,0.25,[1],"[1, 2]",True,True
+frame_with_red_7325_jpg.rf.92c074217897276a4d34bb96b74e2641.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_7399_jpg.rf.10c15f706998cc2ec9c79d0f837a0958.jpg,0.25,[3],[3],True,True
+frame_with_red_7399_jpg.rf.10c15f706998cc2ec9c79d0f837a0958.jpg,0.137,[3],[3],True,True
+frame_with_red_7457_jpg.rf.ad450e3206df2eced6404bd8e7130626.jpg,0.25,[1],[],True,False
+frame_with_red_7457_jpg.rf.ad450e3206df2eced6404bd8e7130626.jpg,0.137,[1],[1],True,True
+frame_with_red_7459_jpg.rf.b53647d4c65ce1e96226fb35cf48c3b7.jpg,0.25,[3],[3],True,True
+frame_with_red_7459_jpg.rf.b53647d4c65ce1e96226fb35cf48c3b7.jpg,0.137,[3],[3],True,True
+frame_with_red_7471_jpg.rf.9961b8bf2edf96fd4e9351264513a4aa.jpg,0.25,[3],[3],True,True
+frame_with_red_7471_jpg.rf.9961b8bf2edf96fd4e9351264513a4aa.jpg,0.137,[3],[3],True,True
+frame_with_red_7487_jpg.rf.65afb711b7898424b16a0544fd8fc5ee.jpg,0.25,[0],"[0, 2]",True,True
+frame_with_red_7487_jpg.rf.65afb711b7898424b16a0544fd8fc5ee.jpg,0.137,[0],"[0, 2]",True,True
+frame_with_red_7506_jpg.rf.a81d0673b994b3d6cbedc42803ff2f94.jpg,0.25,[3],[],True,False
+frame_with_red_7506_jpg.rf.a81d0673b994b3d6cbedc42803ff2f94.jpg,0.137,[3],[],True,False
+frame_with_red_7531_jpg.rf.59157d23dfe55cb3a5ade72e724baab7.jpg,0.25,[3],[3],True,True
+frame_with_red_7531_jpg.rf.59157d23dfe55cb3a5ade72e724baab7.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_7555_jpg.rf.dfcccafda59f677b4678125b6a56a138.jpg,0.25,[1],[2],True,True
+frame_with_red_7555_jpg.rf.dfcccafda59f677b4678125b6a56a138.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_7581_jpg.rf.6ce6557ab0695cf6c89afa8a6f114525.jpg,0.25,[3],[3],True,True
+frame_with_red_7581_jpg.rf.6ce6557ab0695cf6c89afa8a6f114525.jpg,0.137,[3],[3],True,True
+frame_with_red_7663_jpg.rf.e7e3ed527c6a86a3e8ae2d6089b6a81b.jpg,0.25,[1],[],True,False
+frame_with_red_7663_jpg.rf.e7e3ed527c6a86a3e8ae2d6089b6a81b.jpg,0.137,[1],[1],True,True
+frame_with_red_7677_jpg.rf.8138a5fc713e457ea65abd2613da5434.jpg,0.25,[3],[3],True,True
+frame_with_red_7677_jpg.rf.8138a5fc713e457ea65abd2613da5434.jpg,0.137,[3],[3],True,True
+frame_with_red_7739_jpg.rf.09f4ffde24e7546dd198633bc3ebeff0.jpg,0.25,[1],"[1, 2]",True,True
+frame_with_red_7739_jpg.rf.09f4ffde24e7546dd198633bc3ebeff0.jpg,0.137,[1],"[1, 2]",True,True
+frame_with_red_7744_jpg.rf.86244f1b58833eb3aa3ea4b26ae79d48.jpg,0.25,[3],[3],True,True
+frame_with_red_7744_jpg.rf.86244f1b58833eb3aa3ea4b26ae79d48.jpg,0.137,[3],[3],True,True
+frame_with_red_7893_jpg.rf.260ce5e84d81100f9198a89f3d31956c.jpg,0.25,[3],"[1, 3]",True,True
+frame_with_red_7893_jpg.rf.260ce5e84d81100f9198a89f3d31956c.jpg,0.137,[3],"[1, 2, 3]",True,True
+frame_with_red_7953_jpg.rf.216b9fe87b55abb31e13778aee87ece0.jpg,0.25,[1],[],True,False
+frame_with_red_7953_jpg.rf.216b9fe87b55abb31e13778aee87ece0.jpg,0.137,[1],[1],True,True
+frame_with_red_7_jpg.rf.0bca04d4d33f25c859cc7edc88c4de7a.jpg,0.25,[0],[0],True,True
+frame_with_red_7_jpg.rf.0bca04d4d33f25c859cc7edc88c4de7a.jpg,0.137,[0],[0],True,True
+frame_with_red_8064_jpg.rf.a77c563735c44f9920ab2759242de3a0.jpg,0.25,[1],"[0, 1]",True,True
+frame_with_red_8064_jpg.rf.a77c563735c44f9920ab2759242de3a0.jpg,0.137,[1],"[0, 1]",True,True
+frame_with_red_8146_jpg.rf.414baeb85efa52cc85875be6b9162076.jpg,0.25,[3],[3],True,True
+frame_with_red_8146_jpg.rf.414baeb85efa52cc85875be6b9162076.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_8170_jpg.rf.1ab792681b4cbee8c956d1fe0ab9efc6.jpg,0.25,"[1, 3]",[1],True,True
+frame_with_red_8170_jpg.rf.1ab792681b4cbee8c956d1fe0ab9efc6.jpg,0.137,"[1, 3]",[1],True,True
+frame_with_red_8182_jpg.rf.7f679064fd3098d332943f9e93e2ef30.jpg,0.25,[3],[3],True,True
+frame_with_red_8182_jpg.rf.7f679064fd3098d332943f9e93e2ef30.jpg,0.137,[3],[3],True,True
+frame_with_red_8208_jpg.rf.1156d3fe2dd5d6d8d83aa2f76213bcf9.jpg,0.25,[3],[3],True,True
+frame_with_red_8208_jpg.rf.1156d3fe2dd5d6d8d83aa2f76213bcf9.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_8254_jpg.rf.d298f8ceae363271dc9319761c900799.jpg,0.25,[3],[3],True,True
+frame_with_red_8254_jpg.rf.d298f8ceae363271dc9319761c900799.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_8270_jpg.rf.1625a3caf28fc218096d7b299ac44926.jpg,0.25,[1],[],True,False
+frame_with_red_8270_jpg.rf.1625a3caf28fc218096d7b299ac44926.jpg,0.137,[1],[],True,False
+frame_with_red_8337_jpg.rf.36c6928d448c3331e9b40fcfab7d3eb4.jpg,0.25,[3],[],True,False
+frame_with_red_8337_jpg.rf.36c6928d448c3331e9b40fcfab7d3eb4.jpg,0.137,[3],[1],True,True
+frame_with_red_836_jpg.rf.834f99edfba8806c9d96dfc69702e76d.jpg,0.25,[3],[3],True,True
+frame_with_red_836_jpg.rf.834f99edfba8806c9d96dfc69702e76d.jpg,0.137,[3],[3],True,True
+frame_with_red_8423_jpg.rf.3a754ec6a8ff8622167e65c00d2ac0af.jpg,0.25,[3],[3],True,True
+frame_with_red_8423_jpg.rf.3a754ec6a8ff8622167e65c00d2ac0af.jpg,0.137,[3],[3],True,True
+frame_with_red_8517_jpg.rf.3cc9e7f0234538290d8f2dc6f773f41c.jpg,0.25,[3],[3],True,True
+frame_with_red_8517_jpg.rf.3cc9e7f0234538290d8f2dc6f773f41c.jpg,0.137,[3],[3],True,True
+frame_with_red_8565_jpg.rf.4cae34fdffd5355b96a73d4b156a8e92.jpg,0.25,[3],[3],True,True
+frame_with_red_8565_jpg.rf.4cae34fdffd5355b96a73d4b156a8e92.jpg,0.137,[3],[3],True,True
+frame_with_red_8625_jpg.rf.1e64d53a8cd1a8727e5b48e96fd37c6d.jpg,0.25,"[1, 3]",[1],True,True
+frame_with_red_8625_jpg.rf.1e64d53a8cd1a8727e5b48e96fd37c6d.jpg,0.137,"[1, 3]","[1, 3]",True,True
+frame_with_red_8764_jpg.rf.0e93235686a85e3459156e90e68cd79f.jpg,0.25,[3],"[2, 3]",True,True
+frame_with_red_8764_jpg.rf.0e93235686a85e3459156e90e68cd79f.jpg,0.137,[3],"[2, 3]",True,True
+frame_with_red_8897_jpg.rf.415528123afca34d399554d836c62464.jpg,0.25,[1],[],True,False
+frame_with_red_8897_jpg.rf.415528123afca34d399554d836c62464.jpg,0.137,[1],[],True,False
+frame_with_red_889_jpg.rf.6bb10b0cfb41be25d35f6873483bbdcb.jpg,0.25,[3],[3],True,True
+frame_with_red_889_jpg.rf.6bb10b0cfb41be25d35f6873483bbdcb.jpg,0.137,[3],[3],True,True
+frame_with_red_8908_jpg.rf.f91042ddd7957cd632a5589e59f323ed.jpg,0.25,[],[],False,False
+frame_with_red_8908_jpg.rf.f91042ddd7957cd632a5589e59f323ed.jpg,0.137,[],[],False,False
+frame_with_red_8912_jpg.rf.85b178732944074d115c87959db98794.jpg,0.25,[1],[],True,False
+frame_with_red_8912_jpg.rf.85b178732944074d115c87959db98794.jpg,0.137,[1],[],True,False
+frame_with_red_8980_jpg.rf.ec1de865160e8bbca5166a0540872d7c.jpg,0.25,[1],[1],True,True
+frame_with_red_8980_jpg.rf.ec1de865160e8bbca5166a0540872d7c.jpg,0.137,[1],[1],True,True
+frame_with_red_8993_jpg.rf.ab02930997bdcde7e5ec158839ca2124.jpg,0.25,[3],[3],True,True
+frame_with_red_8993_jpg.rf.ab02930997bdcde7e5ec158839ca2124.jpg,0.137,[3],[3],True,True
+frame_with_red_8993_jpg.rf.d741f811745b355dcb3ccbfe569e19af.jpg,0.25,[1],[1],True,True
+frame_with_red_8993_jpg.rf.d741f811745b355dcb3ccbfe569e19af.jpg,0.137,[1],[1],True,True
+frame_with_red_9017_jpg.rf.1580ea8b21f37b910286dbf37ee94307.jpg,0.25,[3],[3],True,True
+frame_with_red_9017_jpg.rf.1580ea8b21f37b910286dbf37ee94307.jpg,0.137,[3],"[1, 3]",True,True
+frame_with_red_9055_jpg.rf.e1798afaddd87ae3562e39a1964f2621.jpg,0.25,[2],[2],True,True
+frame_with_red_9055_jpg.rf.e1798afaddd87ae3562e39a1964f2621.jpg,0.137,[2],[2],True,True
+frame_with_red_908_jpg.rf.e7d29e1fe11be09331d0b387a2e25534.jpg,0.25,[2],[2],True,True
+frame_with_red_908_jpg.rf.e7d29e1fe11be09331d0b387a2e25534.jpg,0.137,[2],[2],True,True
+frame_with_red_9160_jpg.rf.17c670f2caaf92d93ce90e9495f41c81.jpg,0.25,[1],[1],True,True
+frame_with_red_9160_jpg.rf.17c670f2caaf92d93ce90e9495f41c81.jpg,0.137,[1],[1],True,True
+frame_with_red_9199_jpg.rf.dd965b34a44aacaca0b341ce9a83e515.jpg,0.25,[1],[],True,False
+frame_with_red_9199_jpg.rf.dd965b34a44aacaca0b341ce9a83e515.jpg,0.137,[1],[1],True,True
+frame_with_red_9202_jpg.rf.8b86d953915a678830a912bc07e2f102.jpg,0.25,[3],[3],True,True
+frame_with_red_9202_jpg.rf.8b86d953915a678830a912bc07e2f102.jpg,0.137,[3],[3],True,True
+frame_with_red_9300_jpg.rf.e65bdca2b7fe8393b2c99e4899fca4bc.jpg,0.25,[3],[3],True,True
+frame_with_red_9300_jpg.rf.e65bdca2b7fe8393b2c99e4899fca4bc.jpg,0.137,[3],[3],True,True
+frame_with_red_931_jpg.rf.2d64f23dc43f56428b0f5957f0520a81.jpg,0.25,[0],"[0, 1]",True,True
+frame_with_red_931_jpg.rf.2d64f23dc43f56428b0f5957f0520a81.jpg,0.137,[0],"[0, 1]",True,True
+frame_with_red_998_jpg.rf.edfb396b72ca3b57c07e1bfa127ab2d8.jpg,0.25,[1],[1],True,True
+frame_with_red_998_jpg.rf.edfb396b72ca3b57c07e1bfa127ab2d8.jpg,0.137,[1],[1],True,True
