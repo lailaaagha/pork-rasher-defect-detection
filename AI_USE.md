@@ -5,3 +5,32 @@
 | 22/10 | Claude | Summary of brief, project plan, setup steps (GitHub, Git, folders) | Followed setup steps; chose dataset 3 myself | Checked against project brief |
 
 | 22/10 | Claude | Data exploration script, polygon-label fix, Colab training setup, README draft | Ran and checked outputs; counts verified against Roboflow (1446/18) | Compared script counts with Roboflow class page |
+
+# AI Use Log
+
+Tool used: Claude (Anthropic), via chat, 22–23 Oct 2026.
+Approximate AI contribution: **high** for code and planning; data choices,
+running all experiments, checking outputs and final decisions were mine.
+
+| Date | What I asked / AI did | What I kept / changed | How I checked it |
+|------|----------------------|-----------------------|------------------|
+| 22/10 | Summarised brief, proposed timeline and project scope | Chose dataset 3 myself; kept narrow scope | Compared against project brief and rubric |
+| 22/10 | Step-by-step setup: GitHub, Git, venv, folder structure | Followed steps; fixed my own venv activation issue | Ran checks (`All good!`), pushed to GitHub |
+| 22/10 | Suggested rebalancing Roboflow split (90/6/4 → 70/20/10) | I created dataset version 2 | Confirmed split counts in Roboflow and Colab (1369/391/195) |
+| 22/10 | Wrote `explore.py` (counts, box sizes, label validation) | Kept; found 2 polygon labels | Counts matched Roboflow exactly (1446 / 18) |
+| 22/10 | Colab training code (YOLOv8n), polygon-label fix | Restarted training after fix | Checked `0 corrupt` in training log |
+| 22–23/10 | Explained YOLO, training, mAP, transfer learning | Asked follow-up questions until I understood | Confirmed use of pretrained library with teaching team on edStem |
+| 23/10 | Planned alternatives (YOLOv8s) and resolution sweep (320/480/640) | Ran all trainings; chose YOLOv8n-480 based on results | Compared validation tables |
+| 23/10 | Suggested trapezoid/Simpson for AP and golden-section for threshold; wrote `numerics.py`, `analysis.py`, `inspect_tray.py` and all tests | Kept methods after comparing with other Week 2/6 methods | 54 tests pass (incl. known exact integrals); my AP matched Ultralytics to 0.0003 |
+| 23/10 | Evaluation cells: speed, FLOPs, FP16 round-off, final test | Ran once on test set; did not tune after seeing test results | Checked outputs were consistent with validation |
+| 23/10 | README results section, pdoc docs, branch + pull request | Reviewed README content | Opened docs in browser; PR merged |
+
+## Errors / unhelpful AI suggestions
+- Initial training cell referenced `RUNS` before it was defined (fixed by running Drive cell first).
+- Colab session resets meant re-running setup cells; the AI's first instructions didn't make this clear.
+- (Add any others you noticed.)
+
+## Decisions that remained mine
+- Dataset choice, creating the rebalanced Roboflow version, running every experiment.
+- Choosing to stop tuning after the test set was used.
+- Checking with the teaching team that a pretrained library was acceptable.
