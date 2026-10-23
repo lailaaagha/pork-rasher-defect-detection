@@ -96,7 +96,63 @@ with a GPU runtime.
 
 ## 7. Results
 
-*To be added.*
+## 7. Results
+
+All model selection used the **validation set** (391 images). The **test set**
+(195 images) was used **once**, for the final model only.
+
+### Model and resolution comparison (validation, FP32)
+
+| Model | Input | GFLOPs | Latency (ms, batch 1, T4) | mAP50 | AP50 packaging-error | AP50 unsealed |
+|---|---|---|---|---|---|---|
+| YOLOv8n | 320 | 2.2 | 5.7 | 0.528 | 0.310 | 0.846 |
+| **YOLOv8n** | **480** | **4.9** | **5.7** | **0.584** | **0.381** | **0.849** |
+| YOLOv8n | 640 | 8.6 | 7.1 | 0.561 | 0.370 | 0.836 |
+| YOLOv8s | 640 | 28.4 | 17.1 | 0.543 | 0.355 | 0.860 |
+
+- A larger model (YOLOv8s, 3.5x FLOPs) gave no accuracy gain.
+- Lower resolution mainly hurts the smallest defects (packaging-error);
+  large defects (unsealed) are unaffected. No gain beyond 480 px.
+- Latency is overhead-bound, not compute-bound: 4x more FLOPs costs only ~1.25x time.
+- FP16 changed mAP50 by only -0.002 (box round-off ~1-3 px) and gave no speed
+  benefit for YOLOv8n, so FP32 was kept.
+
+**Selected design:** YOLOv8n, 480 px, FP32.
+
+### Numerical-methods checks (`python -m rasher.analysis`)
+
+- **AP verification:** AP50 recomputed with our own trapezoidal rule matches
+  Ultralytics to within 0.0003 for every class; Simpson's rule is slightly worse
+  because the precision-recall curve is not smooth (observed convergence O(h), not O(h²)).
+- **Threshold optimisation:** golden-section search (22 evaluations) matched a
+  2000-point grid search. With a missed defect costing 5x a false alarm, the
+  optimal confidence threshold is **0.137** (default 0.25).
+
+### Final test-set results (YOLOv8n, 480 px)
+
+| Class | AP50 (test) |
+|---|---|
+| unsealed | 0.801 |
+| loose-meat | 0.763 |
+| twisted-meat | 0.490 |
+| packaging-error | 0.252 |
+| wrinkle | 0.000 (1 test instance) |
+| **mAP50** | **0.461** (validation: 0.584) |
+
+Tray level (192 defective, 3 defect-free trays):
+
+| Threshold | Defective trays flagged | Missed | Good trays falsely flagged |
+|---|---|---|---|
+| 0.25 (default) | 151 / 192 (79%) | 41 | 0 / 3 |
+| **0.137 (optimised)** | **177 / 192 (92%)** | **15** | 1 / 3 |
+
+The test mAP is lower than validation because the model and threshold were
+selected on the validation set (selection bias) and some classes have very few
+test instances. With only 3 defect-free test trays, the false-alarm rate cannot
+be reliably estimated.
+
+Full tables and figures: `results/` and `results/analysis/`.
+Test report: `results/test_report.html`. API docs: `docs/index.html`.
 
 ## 8. AI use
 
