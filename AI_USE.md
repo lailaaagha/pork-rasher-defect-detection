@@ -24,6 +24,7 @@ running all experiments, checking outputs and final decisions were mine.
 | 23/10 | Suggested trapezoid/Simpson for AP and golden-section for threshold; wrote `numerics.py`, `analysis.py`, `inspect_tray.py` and all tests | Kept methods after comparing with other Week 2/6 methods | 54 tests pass (incl. known exact integrals); my AP matched Ultralytics to 0.0003 |
 | 23/10 | Evaluation cells: speed, FLOPs, FP16 round-off, final test | Ran once on test set; did not tune after seeing test results | Checked outputs were consistent with validation |
 | 23/10 | README results section, pdoc docs, branch + pull request | Reviewed README content | Opened docs in browser; PR merged |
+| 25/10 | ChatGPT: grammar, flow and organisation of the report; formatting references | Reviewed all suggested changes | Checked the meaning of my writing was unchanged |
 
 ## Errors / unhelpful AI suggestions
 - Initial training cell referenced `RUNS` before it was defined (fixed by running Drive cell first).
