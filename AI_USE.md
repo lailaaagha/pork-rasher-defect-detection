@@ -28,9 +28,17 @@ running all experiments, checking outputs and final decisions were mine.
 ## Errors / unhelpful AI suggestions
 - Initial training cell referenced `RUNS` before it was defined (fixed by running Drive cell first).
 - Colab session resets meant re-running setup cells; the AI's first instructions didn't make this clear.
-- (Add any others you noticed.)
+- A copy of `numerics.py` ended up in the `tests/` folder by mistake; I found and removed it.
+- A stray space in the Colab file path created a second `notebooks` folder; I moved the notebook and fixed it.
 
 ## Decisions that remained mine
-- Dataset choice, creating the rebalanced Roboflow version, running every experiment.
-- Choosing to stop tuning after the test set was used.
-- Checking with the teaching team that a pretrained library was acceptable.
+- Choosing Dataset 3 (pork rashers) out of the available project datasets.
+- Creating the rebalanced Roboflow dataset version (70/20/10) and checking the split counts.
+- Working with VS Code for code/tests and Colab for GPU training, rather than doing everything in Colab.
+- Running every training, evaluation and test myself, and checking each output before moving on.
+- Choosing the final model and settings (YOLOv8n, 480 px, FP32, threshold 0.137) from the validation results.
+- Choosing to stop tuning after the test set was used, so the test result stayed honest.
+- Deciding to keep the wrinkle class and report its poor result honestly, rather than removing it.
+- Deciding which results and figures to include in the report, and which to move to the appendix.
+- Choosing the example test image used in the report and describing what it shows.
+- Writing the final report in my own words.
